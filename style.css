@@ -1,0 +1,531 @@
+* {
+  padding: 0;
+  margin: 0;
+  font-family: poppins;
+  box-sizing: border-box;
+}
+
+@font-face {
+  font-family: "poppins";
+  src: url(Poppins/Poppins-Light.ttf);
+}
+
+/*HALAMAN HOME*/
+
+header .header {
+  background-color: #ff9a00;
+}
+
+.header ul li a {
+  color: black;
+}
+
+.header ul li a i {
+  font-size: 20px;
+}
+
+.judulawal .navbar {
+  background-color: white;
+}
+
+.navbar-brand img {
+  width: 80px;
+}
+
+.navbar-brand {
+  font-weight: bold;
+}
+
+.judulawal ul li a {
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
+}
+
+main .slide h5 {
+  font-weight: bold;
+}
+
+.galeri {
+  background-color: #d2cec2;
+}
+
+.galeri .desgaleri p {
+  text-align: center;
+  padding: 30px;
+  font-size: 25px;
+}
+
+.snapscroll {
+  display: flex;
+  overflow-x: auto;
+}
+
+.snapscroll::-webkit-scrollbar {
+  width: 0;
+}
+
+.snapscroll .snapitem {
+  text-align: center;
+  background-color: white;
+  margin-right: 10px;
+  border-radius: 10px;
+}
+
+.snapscroll .snapitem img {
+  width: 500px;
+  background-color: #68d2e8;
+  border-radius: 10px;
+}
+
+.why .judulwhy h2 {
+  text-align: center;
+  font-weight: bold;
+  padding: 20px;
+}
+
+.why .judulwhy span p {
+  background-color: #ff9a00;
+  height: 4px;
+  width: 300px;
+  border-radius: 10px;
+  margin-left: 111px;
+}
+
+.isiwhy {
+  display: flex;
+  justify-content: center;
+}
+
+.isiwhy1 {
+  width: 600px;
+}
+
+.isiwhy1 p {
+  font-size: 20px;
+}
+
+.isiwhy2 ul li p {
+  font-size: 20px;
+}
+
+.galeri2 {
+  background-image: url(foto/snap3.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: #d2cec2;
+  opacity: 0.8;
+  height: 500px;
+}
+
+.judulgaleri2 h1 {
+  text-align: center;
+  font-weight: bold;
+  padding-top: 200px;
+  color: white;
+}
+
+.isigaleri2 p {
+  text-align: center;
+  font-size: 20px;
+  width: 900px;
+  display: flex;
+  justify-content: center;
+  margin: auto;
+  font-weight: bold;
+  color: white;
+}
+
+.judulaktivitas {
+  text-align: center;
+  padding: 30px;
+}
+
+.judulaktivitas h2 {
+  font-weight: bold;
+}
+
+.aktivitas {
+  background-color: #d2cec2;
+}
+
+.aktivitas .judulaktivitas span p {
+  background-color: #ff9a00;
+  width: 300px;
+  height: 4px;
+  margin: auto;
+  border-radius: 20px;
+}
+
+.galaktiv {
+  background-color: #bf985f;
+  padding: 70px;
+}
+
+.galaktiv .text-center img {
+  width: 300px;
+  margin-left: 30px;
+  box-shadow: -13px -13px 10px 2px #d2cec2;
+  -webkit-box-shadow: -13px -13px 10px 2px #d2cec2;
+  -moz-box-shadow: -13px -13px 10px 2px #d2cec2;
+}
+
+.label ul {
+  display: flex;
+}
+
+.label ul li {
+  text-decoration: none;
+  display: flex;
+}
+
+.label ul li p {
+  font-weight: bold;
+  background-color: #ff9a00;
+  padding: 10px;
+  border-radius: 5px;
+  margin-top: -20px;
+}
+
+.label ul li .label1 {
+  margin-left: 170px;
+}
+
+.label ul li .label2 {
+  margin-left: 240px;
+}
+
+.label ul li .label3 {
+  margin-left: 210px;
+}
+
+.isigalaktiv p {
+  text-align: center;
+  font-size: 20px;
+  width: 400px;
+  margin: auto;
+}
+
+.footer1 h6 img {
+  width: 80px;
+}
+
+.btn-akti {
+  margin-top: 40px;
+  display: flex;
+  justify-content: center;
+}
+
+.btn-akti a {
+  font-weight: bold;
+  color: black;
+  text-decoration: none;
+  text-align: center;
+  background-color: #ff9a00;
+  padding: 10px;
+  border-radius: 10px;
+}
+
+.btn-akti a:hover {
+  color: #68d2e8;
+}
+
+/* HALAMAN ABOUT */
+
+.btnket {
+  display: flex;
+  padding: 30px;
+}
+
+.btnket p a {
+  font-weight: bold;
+  text-decoration: none;
+  color: black;
+}
+
+.garis1 span p {
+  height: 2px;
+  width: 90%;
+  text-align: center;
+  margin: auto;
+  background-color: rgb(88, 88, 88);
+  border-radius: 10px;
+  margin-top: -20px;
+}
+
+.ourstory {
+  display: flex;
+  padding-top: 30px;
+  justify-content: center;
+  padding-bottom: 30px;
+}
+
+.isistory {
+  margin-left: 40px;
+  width: 500px;
+}
+
+.isistory h1 {
+  font-weight: bold;
+}
+
+.visimisi {
+  background-color: #aa9c72;
+  padding: 30px;
+}
+
+.visi {
+  background-color: #f9a605;
+  border-radius: 10px;
+  padding: 10px;
+}
+
+.misi {
+  background-color: #f9a605;
+  border-radius: 10px;
+  margin-left: 20px;
+  padding: 10px;
+}
+
+.visi h2 {
+  font-weight: bold;
+  color: white;
+}
+
+.visi p {
+  color: white;
+}
+
+.misi h2 {
+  color: white;
+  font-weight: bold;
+}
+
+.misi p {
+  color: white;
+}
+
+.prioritas {
+  padding-top: 40px;
+  background-color: #aa9c72;
+}
+
+.judulprio {
+  position: relative;
+  z-index: 999;
+}
+
+.prioritas .judulprio h1 {
+  text-align: center;
+  font-weight: bold;
+}
+
+.prioritas .judulprio span p {
+  background-color: #fdde55;
+  margin: auto;
+  height: 2px;
+  width: 250px;
+  border-radius: 10px;
+}
+
+.isiprio {
+  margin-top: 50px;
+}
+
+.akhlak,
+.belajar,
+.kemampuan {
+  background-color: #f9a605;
+  margin: 30px;
+  border-radius: 10px;
+}
+
+.akhlak p i,
+.belajar p i,
+.kemampuan p i {
+  font-size: 100px;
+  width: 20px;
+}
+
+.akhlak h4,
+.belajar h4,
+.kemampuan h4 {
+  font-weight: bold;
+  margin-top: -20px;
+}
+
+/* HALAMAN PENGUMUMAN */
+
+.peng {
+  background-image: url(foto/pengumumna.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 600px;
+}
+
+.peng h1 {
+  font-weight: bold;
+  text-align: end;
+  padding-top: 350px;
+  padding-right: 50px;
+}
+
+.peng span p {
+  background-color: white;
+  height: 2px;
+  width: 1000px;
+  margin: auto;
+  margin-top: 30px;
+  border-radius: 10px;
+}
+
+.daftar {
+  padding-top: 40px;
+}
+
+.daf1 {
+  display: flex;
+  justify-content: center;
+  margin-top: 40px;
+}
+
+.daftar .judulpeng h4 {
+  text-align: center;
+  font-weight: bold;
+  font-size: 18px;
+  margin: auto;
+  width: 400px;
+}
+
+.caradaf,
+.syarat {
+  padding-top: 30px;
+}
+
+.caradaf {
+  border-right: 1px solid rgb(115, 115, 115);
+}
+
+.caradaf p,
+.syarat p {
+  text-align: left;
+  width: 400px;
+}
+
+/* HALAMAN FASILITAS */
+
+.ourfasi {
+  text-align: center;
+  padding-top: 40px;
+}
+
+.ourfasi h1 {
+  font-weight: bold;
+}
+
+.ourfasi p {
+  font-weight: bold;
+  font-size: 20px;
+  width: 600px;
+  margin: auto;
+  padding-top: 20px;
+}
+
+.labelsekolah {
+  text-align: center;
+  padding-top: 50px;
+}
+
+.labelsekolah h5 {
+  background-color: rgb(228, 211, 211);
+  font-weight: bold;
+  width: 100px;
+  margin: auto;
+  border-radius: 10px;
+  padding: 10px;
+  font-size: 18px;
+}
+
+.labelsekolah span p {
+  background-color: #fdde55;
+  width: 200px;
+  margin: auto;
+  margin-top: 30px;
+  height: 2px;
+  text-align: center;
+  border-radius: 10px;
+}
+
+/* HALAMAN ALUMNI */
+
+.judulalumni {
+  margin-top: 20px;
+}
+
+.judulalumni h1 {
+  text-align: center;
+  font-weight: bold;
+}
+
+#container {
+  position: relative;
+  overflow: hidden;
+}
+#container #img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+}
+
+#img img {
+  width: 100vw;
+  height: 100%;
+  z-index: -1;
+}
+
+.prioritas {
+  padding: 90px 0;
+  z-index: 1;
+  /* position: relative; */
+}
+
+.col {
+  z-index: 9999;
+}
+
+.belajar:hover,
+.akhlak:hover,
+.kemampuan:hover {
+  transform: translateY(-50px);
+  background-color: white;
+}
+
+.nav .nav-item a:hover {
+  background-color: #68d2e8;
+  border-radius: 10px;
+}
+
+.ket1 p a:hover {
+  color: #68d2e8;
+}
+.ket2 p a:hover {
+  color: #68d2e8;
+}
+
+.kaki a {
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.kaki h6 {
+  font-weight: bold;
+}
+
+.kaki p {
+  font-weight: bold;
+}
+
+footer span {
+  font-weight: bold;
+}

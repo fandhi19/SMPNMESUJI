@@ -1,0 +1,49 @@
+.alumni {
+  background-image: url(foto/alumni.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 600px;
+}
+
+.alumni h1 {
+  font-weight: bold;
+  text-align: end;
+  padding-top: 420px;
+  padding-right: 70px;
+}
+
+.alumni span p {
+  background-color: white;
+  height: 2px;
+  width: 1000px;
+  margin: auto;
+  margin-top: 30px;
+  border-radius: 10px;
+}
+
+.wadah-gambar img {
+  width: 261px;
+  height: 340px;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+}
+
+.wadah {
+  background-color: aliceblue;
+  border-radius: 20px;
+}
+
+.ket-alumni p {
+  margin-top: 20px;
+  font-weight: bold;
+  color: #ff9a00;
+}
+
+.ket-alumni h4 {
+  margin-top: -10px;
+  font-weight: bold;
+}
+
+.des-lulusan {
+  padding-bottom: 20px;
+}
